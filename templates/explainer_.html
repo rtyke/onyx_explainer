@@ -25,10 +25,11 @@
     <h4>What you don't understand?</h4>
     <form action="/question" method="post">
 
+
         <label for="question">Ask:</label>
         <input type="text" id="question" name="question" required>
         <br><br>
-
+        <input type="hidden" id="client_id" name="client_id" value="{{ client_id }}">
         <button type="submit">Submit</button>
     </form>
 
