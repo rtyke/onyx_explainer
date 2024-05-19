@@ -11,7 +11,7 @@ from openai import OpenAI
 
 app = FastAPI()
 
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="src/templates")
 
 
 class Chat:
